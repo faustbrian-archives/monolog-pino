@@ -1,5 +1,5 @@
-import { LogLevel } from "@konceiver/monolog-levels";
 import { ILogger } from "@konceiver/monolog";
+import { LogLevel } from "@konceiver/monolog-levels";
 import pino from "pino";
 
 export class PinoLogger implements ILogger {
@@ -58,6 +58,6 @@ export class PinoLogger implements ILogger {
 	}
 
 	public log<T = any>(level: string, message: string, context?: T): void {
-		this.logger[level](message, context);
+		this.logger[level]!(message, context);
 	}
 }
