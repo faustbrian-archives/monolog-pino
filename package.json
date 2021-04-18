@@ -27,13 +27,13 @@
 	],
 	"dependencies": {
 		"@konceiver/monolog": "^1.0.0",
-		"@konceiver/monolog-levels": "^1.0.0",
-		"pino": "^6.8.0"
+		"@konceiver/monolog-levels": "^1.0.1",
+		"pino": "^6.11.3"
 	},
 	"devDependencies": {
 		"@konceiver/monolog-test-suite": "^1.0.0",
-		"@konceiver/tease": "^2.0.0",
-		"@types/pino": "^6.3.4"
+		"@konceiver/tease": "^2.0.1",
+		"@types/pino": "^6.3.7"
 	},
 	"types": "dist/index"
 }
