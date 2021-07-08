@@ -33,7 +33,7 @@
 	"devDependencies": {
 		"@konceiver/monolog-test-suite": "^1.0.0",
 		"@konceiver/tease": "^2.0.1",
-		"@types/pino": "^6.3.8"
+		"@types/pino": "^6.3.9"
 	},
 	"types": "dist/index"
 }
