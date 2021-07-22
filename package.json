@@ -28,7 +28,7 @@
 	"dependencies": {
 		"@konceiver/monolog": "^1.0.0",
 		"@konceiver/monolog-levels": "^1.0.1",
-		"pino": "^6.12.0"
+		"pino": "^6.13.0"
 	},
 	"devDependencies": {
 		"@konceiver/monolog-test-suite": "^1.0.0",
